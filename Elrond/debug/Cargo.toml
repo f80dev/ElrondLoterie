@@ -1,0 +1,14 @@
+[package]
+name = "loterie-debug"
+version = "0.0.1"
+authors = [ "you",]
+edition = "2018"
+
+[dependencies.loterie]
+path = ".."
+
+[dependencies.elrond-wasm]
+version = "0.7.0"
+
+[dependencies.elrond-wasm-debug]
+version = "0.7.0"
